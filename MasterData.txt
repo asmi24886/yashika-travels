@@ -1,0 +1,54 @@
+[
+  {
+		"name": "Beautiful darjeeling 2 days example",
+		"place": "Darjeeling",
+		"durationInDays": "2",
+		"popularity": "high",
+		"tag": {
+			"state": "West Bengal",
+			"terrain": "Mountains",
+			"experience": "Adventure"
+		},
+		"description": {
+			"long": "A long description of the tour",
+			"short": "Short description"
+		},
+		"itinerary": {
+			"1": "Details of day 1 plan",
+			"2": "Details of day 2 plan"
+		},
+		"services": {
+			"Flight/Train": false,
+			"Car": true,
+			"Hotel": true,
+			"Food": true,
+			"Any other that you can think of": false
+		}
+	},
+	{
+		"name": "Lovely Digha 2 days example2",
+		"place": "Digha",
+		"durationInDays": "2",
+		"popularity": "high",
+		"tag": {
+			"state": "West Bengal",
+			"terrain": "Sea",
+			"experience": "Leisure"
+		},
+		"description": {
+			"long": "A long description of the tour",
+			"short": "Short description"
+		},
+		"itinerary": {
+			"1": "Details of day 1 plan",
+			"2": "Details of day 2 plan"
+		},
+		"services": {
+			"Flight/Train": false,
+			"Car": true,
+			"Hotel": true,
+			"Food": true,
+			"Any other that you can think of": false
+		}
+	}
+]
