@@ -198,6 +198,11 @@ $(function () {
 
 });
 
+function startBackgroundSwitch() {
+	$(".home").bgswitcher({
+		images: ["images/slider/2.jpg", "images/slider/1.jpg", "images/slider/3.jpg"],
+	  });
+}
 
 $(window).load(function () {
 	var $grid = $('.grid'),
@@ -217,4 +222,6 @@ $(window).load(function () {
 		$('label.btn-main').removeClass('btn-main');
 		$('input[name="filter"]:checked').parent().addClass('btn-main');
 	});
+
+	startBackgroundSwitch()
 });
