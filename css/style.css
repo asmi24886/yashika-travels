@@ -451,7 +451,8 @@ h6 {
   }
 }
 .home {
-  background-image: url(../images/hero-img9.jpg);
+  height: 100vh;
+  background-image: url(../images/slider/2.jpg);
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -639,7 +640,7 @@ h6 {
   padding: 120px 0;
 }
 .about {
-  padding: 100px 0 0;
+  padding: 100px 0;
 }
 .st-member {
   position: relative;
@@ -857,7 +858,7 @@ h6 {
   }
 }
 .funfacts {
-  background-image: url(../images/funfact4.png);
+  background-image: url(../images/long.jpg);
   background-color: #000;
   background-position: center center;
   background-attachment: fixed;
@@ -963,10 +964,12 @@ ul.styled-list.list-star li:before {
   content: '\f006';
 }
 .call-2-acction {
-  padding: 100px 0;
-  background-image: url(../images/c2a.png);
+  padding: 300px 0;
+  background-image: url(../images/car.jpg);
   background-attachment: fixed;
   background-color: #000;
+  background-size: 100% auto;
+  _background-repeat: no-repeat;
 }
 .c2a {
   max-width: 700px;
@@ -1140,7 +1143,7 @@ ul.styled-list.list-star li:before {
 }
 .testimonials {
   padding: 100px 0;
-  background-image: url(../images/testimonials.png);
+  background-image: url(../images/funfact4.png);
   background-size: cover;
   background-attachment: fixed;
   background-color: #000;
