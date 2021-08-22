@@ -200,14 +200,28 @@ $(function () {
 
 function startBackgroundSwitch() {
 	$(".home").bgswitcher({
-		images: ["images/slider/2.jpg", "images/slider/1.jpg", "images/slider/3.jpg"],
+		images: [
+			"images/slider/1.jpg", 
+			"images/slider/2.jpg", 
+			"images/slider/3.jpg", 
+			"images/slider/4.jpg",
+			"images/slider/5.jpg",
+			"images/slider/6.jpg",
+			"images/slider/7.jpg",
+			"images/slider/8.jpg",
+			"images/slider/9.jpg",
+			"images/slider/10.jpg",
+			"images/slider/11.jpg",
+			"images/slider/12.jpg",
+			"images/slider/13.jpg",
+		]
 	  });
 }
 
-$(window).load(function () {
+function initPortfolioShuffle() {
 	var $grid = $('.grid'),
-		$sizer = $grid.find('.shuffle__sizer'),
-		$filterType = $('#filter input[name="filter"]');
+	$sizer = $grid.find('.shuffle__sizer'),
+	$filterType = $('#filter input[name="filter"]');
 
 	$grid.shuffle({
 		itemSelector: '.portfolio-item',
@@ -222,6 +236,9 @@ $(window).load(function () {
 		$('label.btn-main').removeClass('btn-main');
 		$('input[name="filter"]:checked').parent().addClass('btn-main');
 	});
+}
 
-	startBackgroundSwitch()
+$(window).load(function () {
+	initPortfolioShuffle();
+	startBackgroundSwitch();
 });
